@@ -1,0 +1,16 @@
+<%= form_with(model: task) do |f| %>
+    <div>
+      <%= f.label :title, "Título de la tarea" %><br>
+      <%= f.text_field :title %>
+    </div>
+  
+    <div>
+      <%= f.label :done, "¿Completada?" %>
+      <%= f.check_box :done %>
+    </div>
+  
+    <div>
+      <%= f.submit %>
+    </div>
+  <% end %>
+  

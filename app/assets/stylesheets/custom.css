@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@700&display=swap');
+
+/* Estilo general */
+body {
+  font-family: 'Andada Pro', serif; /* Tipografía moderna pero con un toque tradicional */
+  background-color: #e6e2d3; /* Fondo suave como el cielo andino */
+  color: #4d280f; /* Texto en tonos cálidos como la tierra */
+  margin: 30px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 3px double #4d280f; /* Borde con tonos de tierra */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px; /* Espaciado para dar un aire más artesanal */
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fffaf0; /* Fondo claro como los textiles andinos */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  border: 2px solid #8b5e3c; /* Borde en tonos terracota */
+  border-radius: 8px; /* Esquinas redondeadas */
+  overflow: hidden; /* Asegura que el borde redondeado funcione */
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #c9b89a; /* Líneas divisorias suaves */
+  text-align: left;
+}
+
+th {
+  background-color: #8b5e3c; /* Encabezado en tonos terracota */
+  color: #fff; /* Texto blanco para contraste */
+  font-weight: bold;
+}
+
+td {
+  background-color: #faf3e6; /* Celdas en tonos claros */
+}
+
+/* Botones y enlaces */
+a, .btn {
+  text-decoration: none;
+  background-color: #4d280f; /* Color oscuro como la tierra andina */
+  color: #fff; /* Texto blanco para contraste */
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+a:hover, .btn:hover {
+  background-color: #6b3d1f; /* Cambio de color al pasar el cursor */
+}
+
+.btn-sm {
+  font-size: 0.9em;
+  padding: 4px 10px;
+  margin: 2px;
+  background-color: #8b5e3c; /* Variante más clara para botones pequeños */
+}
+
+.btn-sm:hover {
+  background-color: #a9714b; /* Cambio de color al pasar el cursor */
+}
+
+/* Detalles adicionales */
+tbody tr:nth-child(even) {
+  background-color: #f2efe6; /* Alternancia de filas para mejor legibilidad */
+}
+
+tbody tr:hover {
+  background-color: #e6e2d3; /* Resalta la fila al pasar el cursor */
+}
+
+/* Iconos y emojis */
+table td:first-child {
+  font-weight: bold; /* Destaca el título de la tarea */
+}
+
+table td:last-child {
+  text-align: center; /* Centra las acciones */
+}
